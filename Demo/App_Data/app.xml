@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.12.03" ExportDate="2023-01-06T15:32:47.396319-05:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.12.03" ExportDate="2023-01-06T15:46:42.3022171-05:00">
   <Header>
     <App Guid="9e092564-4171-4604-8608-7d6a16e8aa89" />
     <Language Default="en-us" />
@@ -11,6 +11,24 @@
     </AttributeSet>
     <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="6b9c3f40-6293-4ff9-8695-7500614c72b1" Name="FAQ" Description="" Scope="Default" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="Question" Type="String" IsTitle="true">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="e4f6e9c2-9ad7-4e2d-8482-beba071a233e" Json="True" KeyNumber="1">
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="Question" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Answer" Type="String" IsTitle="false">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="be588012-78c0-44b7-ac41-4b2630b0a592" Json="True" KeyNumber="2">
+            <Value Key="InputType" Value="string-wysiwyg" Type="String" />
+            <Value Key="Name" Value="Answer" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+      </Attributes>
     </AttributeSet>
   </AttributeSets>
   <Entities>
