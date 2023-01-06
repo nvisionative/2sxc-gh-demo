@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.12.03" ExportDate="2023-01-06T15:32:47.396319-05:00">
+  <Header>
+    <App Guid="9e092564-4171-4604-8608-7d6a16e8aa89" />
+    <Language Default="en-us" />
+    <Dimensions />
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="1b11942b-ddac-4d53-8ea6-c6ddfde67f1e" Json="True" KeyNumber="4">
+      <Value Key="DisplayName" Value="Demo" Type="String" />
+      <Value Key="Folder" Value="Demo" Type="String" />
+      <Value Key="OriginalId" Value="" Type="String" />
+      <Value Key="Version" Value="00.00.13" Type="String" />
+    </Entity>
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="43d44ee3-0b88-4cb3-ac0e-4495fda5d430" KeyNumber="4" />
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="b8260bdf-f2cb-4529-9a14-2e5629bd5c46" KeyNumber="4" />
+  </Entities>
+  <PortalFiles />
+  <PortalFolders>
+    <Folder Id="40" RelativePath="adam/Demo/" />
+  </PortalFolders>
+</SexyContent>
